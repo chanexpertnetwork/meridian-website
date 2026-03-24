@@ -179,9 +179,16 @@ p {
     color: var(--primary);
 }
 
-.logo-icon {
-    color: var(--accent);
-    font-size: 1.1em;
+.logo-icon-img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    border-radius: 4px;
+}
+
+.logo-text {
+    font-weight: 700;
+    letter-spacing: 0.05em;
 }
 
 .nav-links {
