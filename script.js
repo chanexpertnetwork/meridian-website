@@ -273,7 +273,7 @@ const translations = {
         contactWeChatQR: "微信二维码",
         qrComingSoon: "二维码即将添加",
         contactHQ: "总部",
-        contactLocations: "中国深圳",
+        contactLocations: "中国香港",
         formName: "姓名 *",
         formCompany: "公司 *",
         formEmail: "邮箱地址 *",
