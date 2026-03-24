@@ -987,6 +987,91 @@ p {
     }
 }
 
+/* Language Switcher */
+.language-switcher {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-left: 1rem;
+    padding: 0.25rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+}
+
+.navbar.scrolled .language-switcher {
+    background: rgba(26, 54, 93, 0.1);
+}
+
+.lang-btn {
+    background: none;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    border-radius: 16px;
+    transition: var(--transition);
+}
+
+.navbar.scrolled .lang-btn {
+    color: var(--text-light);
+}
+
+.lang-btn.active {
+    background: white;
+    color: var(--primary);
+}
+
+.navbar.scrolled .lang-btn.active {
+    background: var(--primary);
+    color: white;
+}
+
+.lang-btn:hover:not(.active) {
+    color: white;
+}
+
+.navbar.scrolled .lang-btn:hover:not(.active) {
+    color: var(--primary);
+}
+
+.lang-divider {
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 0.75rem;
+}
+
+.navbar.scrolled .lang-divider {
+    color: var(--border);
+}
+
+/* WeChat QR Code */
+.wechat-qr .qr-placeholder {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    background: var(--background-alt);
+    border: 2px dashed var(--border);
+    border-radius: 8px;
+    color: var(--text-muted);
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.wechat-qr .qr-placeholder .qr-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 4px;
+}
+
+.contact-item.wechat-qr {
+    align-items: flex-start;
+}
+
 /* Utility Classes */
 .sr-only {
     position: absolute;
@@ -998,4 +1083,17 @@ p {
     clip: rect(0, 0, 0, 0);
     white-space: nowrap;
     border-width: 0;
+}
+
+/* Mobile Responsive for Language Switcher */
+@media (max-width: 768px) {
+    .language-switcher {
+        margin-left: auto;
+        margin-right: 1rem;
+    }
+    
+    .lang-btn {
+        padding: 0.3rem 0.6rem;
+        font-size: 0.75rem;
+    }
 }

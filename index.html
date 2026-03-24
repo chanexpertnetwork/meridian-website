@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meridian Expert Network | Access Industry Experts On Demand</title>
+    <title data-i18n="pageTitle">Meridian Expert Network | Access Industry Experts On Demand</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,15 +18,20 @@
                 <span class="logo-text">MERIDIAN</span>
             </a>
             <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#clients">For Clients</a></li>
-                <li><a href="#experts">Join as Expert</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#home" data-i18n="navHome">Home</a></li>
+                <li><a href="#about" data-i18n="navAbout">About</a></li>
+                <li><a href="#services" data-i18n="navServices">Services</a></li>
+                <li><a href="#clients" data-i18n="navClients">For Clients</a></li>
+                <li><a href="#experts" data-i18n="navExperts">Join as Expert</a></li>
+                <li><a href="#contact" data-i18n="navContact">Contact</a></li>
             </ul>
             <div class="nav-cta">
-                <a href="#contact" class="btn btn-primary">Request an Expert</a>
+                <a href="#contact" class="btn btn-primary" data-i18n="navCta">Request an Expert</a>
+            </div>
+            <div class="language-switcher">
+                <button class="lang-btn active" data-lang="en">EN</button>
+                <span class="lang-divider">|</span>
+                <button class="lang-btn" data-lang="zh">中文</button>
             </div>
             <button class="mobile-menu-btn" aria-label="Toggle menu">
                 <span></span>
@@ -40,27 +45,27 @@
     <section id="home" class="hero">
         <div class="container">
             <div class="hero-content">
-                <h1 class="hero-title">Access Industry Experts<br>On Demand</h1>
-                <p class="hero-subtitle">
+                <h1 class="hero-title" data-i18n="heroTitle">Access Industry Experts<br>On Demand</h1>
+                <p class="hero-subtitle" data-i18n="heroSubtitle">
                     Connect with verified industry professionals for critical insights that drive investment decisions, 
                     strategic planning, and competitive advantage. Trusted by leading investment firms and corporations worldwide.
                 </p>
                 <div class="hero-cta">
-                    <a href="#contact" class="btn btn-primary btn-large">Request an Expert</a>
-                    <a href="#experts" class="btn btn-secondary btn-large">Become an Expert</a>
+                    <a href="#contact" class="btn btn-primary btn-large" data-i18n="heroCtaPrimary">Request an Expert</a>
+                    <a href="#experts" class="btn btn-secondary btn-large" data-i18n="heroCtaSecondary">Become an Expert</a>
                 </div>
                 <div class="hero-stats">
                     <div class="stat">
                         <span class="stat-number">50,000+</span>
-                        <span class="stat-label">Verified Experts</span>
+                        <span class="stat-label" data-i18n="statExperts">Verified Experts</span>
                     </div>
                     <div class="stat">
                         <span class="stat-number">15,000+</span>
-                        <span class="stat-label">Consultations Delivered</span>
+                        <span class="stat-label" data-i18n="statConsultations">Consultations Delivered</span>
                     </div>
                     <div class="stat">
                         <span class="stat-number">98%</span>
-                        <span class="stat-label">Client Satisfaction</span>
+                        <span class="stat-label" data-i18n="statSatisfaction">Client Satisfaction</span>
                     </div>
                 </div>
             </div>
@@ -72,49 +77,49 @@
     <section class="industries">
         <div class="container">
             <div class="section-header center">
-                <span class="section-label">Industries</span>
-                <h2>Expertise Across Key Sectors</h2>
+                <span class="section-label" data-i18n="sectionIndustries">Industries</span>
+                <h2 data-i18n="industriesTitle">Expertise Across Key Sectors</h2>
             </div>
             <div class="industries-grid">
                 <div class="industry-card">
                     <div class="industry-icon">🤖</div>
-                    <h3>Artificial Intelligence</h3>
-                    <p>Machine learning engineers, AI researchers, and tech executives</p>
+                    <h3 data-i18n="industryAI">Artificial Intelligence</h3>
+                    <p data-i18n="industryAIDesc">Machine learning engineers, AI researchers, and tech executives</p>
                 </div>
                 <div class="industry-card">
                     <div class="industry-icon">💻</div>
-                    <h3>Semiconductors</h3>
-                    <p>Chip designers, fab operators, and supply chain specialists</p>
+                    <h3 data-i18n="industrySemiconductors">Semiconductors</h3>
+                    <p data-i18n="industrySemiconductorsDesc">Chip designers, fab operators, and supply chain specialists</p>
                 </div>
                 <div class="industry-card">
                     <div class="industry-icon">⚡</div>
-                    <h3>Electric Vehicles</h3>
-                    <p>Battery technologists, OEM executives, and charging infrastructure experts</p>
+                    <h3 data-i18n="industryEV">Electric Vehicles</h3>
+                    <p data-i18n="industryEVDesc">Battery technologists, OEM executives, and charging infrastructure experts</p>
                 </div>
                 <div class="industry-card">
                     <div class="industry-icon">🛒</div>
-                    <h3>Consumer & Retail</h3>
-                    <p>Brand managers, retail operators, and consumer behavior analysts</p>
+                    <h3 data-i18n="industryConsumer">Consumer & Retail</h3>
+                    <p data-i18n="industryConsumerDesc">Brand managers, retail operators, and consumer behavior analysts</p>
                 </div>
                 <div class="industry-card">
                     <div class="industry-icon">🏥</div>
-                    <h3>Healthcare</h3>
-                    <p>Physicians, pharma executives, and regulatory specialists</p>
+                    <h3 data-i18n="industryHealthcare">Healthcare</h3>
+                    <p data-i18n="industryHealthcareDesc">Physicians, pharma executives, and regulatory specialists</p>
                 </div>
                 <div class="industry-card">
                     <div class="industry-icon">🏦</div>
-                    <h3>Financial Services</h3>
-                    <p>Investment bankers, asset managers, and fintech leaders</p>
+                    <h3 data-i18n="industryFinancial">Financial Services</h3>
+                    <p data-i18n="industryFinancialDesc">Investment bankers, asset managers, and fintech leaders</p>
                 </div>
                 <div class="industry-card">
                     <div class="industry-icon">🌍</div>
-                    <h3>Energy & Infrastructure</h3>
-                    <p>Energy executives, utility operators, and ESG specialists</p>
+                    <h3 data-i18n="industryEnergy">Energy & Infrastructure</h3>
+                    <p data-i18n="industryEnergyDesc">Energy executives, utility operators, and ESG specialists</p>
                 </div>
                 <div class="industry-card">
                     <div class="industry-icon">📊</div>
-                    <h3>More Industries</h3>
-                    <p>Access experts across 150+ sectors and geographies</p>
+                    <h3 data-i18n="industryMore">More Industries</h3>
+                    <p data-i18n="industryMoreDesc">Access experts across 150+ sectors and geographies</p>
                 </div>
             </div>
         </div>
@@ -124,24 +129,24 @@
     <section class="how-it-works">
         <div class="container">
             <div class="section-header center">
-                <span class="section-label">Process</span>
-                <h2>How Meridian Works</h2>
+                <span class="section-label" data-i18n="sectionProcess">Process</span>
+                <h2 data-i18n="howItWorksTitle">How Meridian Works</h2>
             </div>
             <div class="process-steps">
                 <div class="process-step">
                     <div class="step-number">01</div>
-                    <h3>Submit Request</h3>
-                    <p>Share your research objectives and ideal expert profile with our team</p>
+                    <h3 data-i18n="step1Title">Submit Request</h3>
+                    <p data-i18n="step1Desc">Share your research objectives and ideal expert profile with our team</p>
                 </div>
                 <div class="process-step">
                     <div class="step-number">02</div>
-                    <h3>Expert Matching</h3>
-                    <p>We identify and vet qualified experts from our global network within 24 hours</p>
+                    <h3 data-i18n="step2Title">Expert Matching</h3>
+                    <p data-i18n="step2Desc">We identify and vet qualified experts from our global network within 24 hours</p>
                 </div>
                 <div class="process-step">
                     <div class="step-number">03</div>
-                    <h3>Connect & Learn</h3>
-                    <p>Schedule consultations at your convenience and gain actionable insights</p>
+                    <h3 data-i18n="step3Title">Connect & Learn</h3>
+                    <p data-i18n="step3Desc">Schedule consultations at your convenience and gain actionable insights</p>
                 </div>
             </div>
         </div>
@@ -152,14 +157,14 @@
         <div class="container">
             <div class="about-grid">
                 <div class="about-content">
-                    <span class="section-label">About Us</span>
-                    <h2>Connecting Decision-Makers with Industry Intelligence</h2>
-                    <p>
+                    <span class="section-label" data-i18n="sectionAbout">About Us</span>
+                    <h2 data-i18n="aboutTitle">Connecting Decision-Makers with Industry Intelligence</h2>
+                    <p data-i18n="aboutDesc1">
                         Meridian Expert Network was founded on a simple belief: the most valuable insights come from 
                         those with firsthand experience. In a world saturated with data, we provide access to the 
                         nuanced, contextual knowledge that drives superior decisions.
                     </p>
-                    <p>
+                    <p data-i18n="aboutDesc2">
                         Our platform connects institutional investors, consulting firms, and corporate strategists 
                         with verified industry experts across 150+ sectors. Every connection is carefully curated 
                         to ensure relevance, compliance, and actionable intelligence.
@@ -167,21 +172,21 @@
                     <div class="about-values">
                         <div class="value">
                             <span class="value-icon">◆</span>
-                            <span>Integrity</span>
+                            <span data-i18n="valueIntegrity">Integrity</span>
                         </div>
                         <div class="value">
                             <span class="value-icon">◆</span>
-                            <span>Precision</span>
+                            <span data-i18n="valuePrecision">Precision</span>
                         </div>
                         <div class="value">
                             <span class="value-icon">◆</span>
-                            <span>Partnership</span>
+                            <span data-i18n="valuePartnership">Partnership</span>
                         </div>
                     </div>
                 </div>
                 <div class="about-image">
                     <div class="image-placeholder">
-                        <span>Strategic Advisory</span>
+                        <span data-i18n="aboutImageText">Strategic Advisory</span>
                     </div>
                 </div>
             </div>
@@ -192,57 +197,57 @@
     <section id="services" class="services">
         <div class="container">
             <div class="section-header center">
-                <span class="section-label">Services</span>
-                <h2>Tailored Solutions for Every Research Need</h2>
+                <span class="section-label" data-i18n="sectionServices">Services</span>
+                <h2 data-i18n="servicesTitle">Tailored Solutions for Every Research Need</h2>
             </div>
             <div class="services-grid">
                 <div class="service-card featured">
                     <div class="service-header">
                         <span class="service-icon">📞</span>
-                        <span class="service-badge">Most Popular</span>
+                        <span class="service-badge" data-i18n="badgePopular">Most Popular</span>
                     </div>
-                    <h3>Expert Calls</h3>
-                    <p class="service-desc">
+                    <h3 data-i18n="serviceCallsTitle">Expert Calls</h3>
+                    <p class="service-desc" data-i18n="serviceCallsDesc">
                         One-on-one consultations with industry experts for deep-dive insights on market trends, 
                         competitive dynamics, and strategic opportunities.
                     </p>
                     <ul class="service-features">
-                        <li>60-90 minute consultations</li>
-                        <li>Custom expert recruitment</li>
-                        <li>Compliance-checked engagements</li>
-                        <li>Call recording & transcripts</li>
+                        <li data-i18n="serviceCallsFeature1">60-90 minute consultations</li>
+                        <li data-i18n="serviceCallsFeature2">Custom expert recruitment</li>
+                        <li data-i18n="serviceCallsFeature3">Compliance-checked engagements</li>
+                        <li data-i18n="serviceCallsFeature4">Call recording & transcripts</li>
                     </ul>
                 </div>
                 <div class="service-card">
                     <div class="service-header">
                         <span class="service-icon">📊</span>
                     </div>
-                    <h3>Expert Surveys</h3>
-                    <p class="service-desc">
+                    <h3 data-i18n="serviceSurveysTitle">Expert Surveys</h3>
+                    <p class="service-desc" data-i18n="serviceSurveysDesc">
                         Quantitative research with targeted professional panels for market sizing, 
                         sentiment analysis, and trend validation.
                     </p>
                     <ul class="service-features">
-                        <li>Custom survey design</li>
-                        <li>Targeted respondent panels</li>
-                        <li>Statistical analysis</li>
-                        <li>Visual reporting</li>
+                        <li data-i18n="serviceSurveysFeature1">Custom survey design</li>
+                        <li data-i18n="serviceSurveysFeature2">Targeted respondent panels</li>
+                        <li data-i18n="serviceSurveysFeature3">Statistical analysis</li>
+                        <li data-i18n="serviceSurveysFeature4">Visual reporting</li>
                     </ul>
                 </div>
                 <div class="service-card">
                     <div class="service-header">
                         <span class="service-icon">🤝</span>
                     </div>
-                    <h3>Long-term Advisory</h3>
-                    <p class="service-desc">
+                    <h3 data-i18n="serviceAdvisoryTitle">Long-term Advisory</h3>
+                    <p class="service-desc" data-i18n="serviceAdvisoryDesc">
                         Ongoing advisory relationships with senior executives for sustained strategic 
                         guidance and board-level consulting.
                     </p>
                     <ul class="service-features">
-                        <li>Multi-month engagements</li>
-                        <li>Dedicated advisor relationships</li>
-                        <li>Regular check-ins</li>
-                        <li>Strategic planning support</li>
+                        <li data-i18n="serviceAdvisoryFeature1">Multi-month engagements</li>
+                        <li data-i18n="serviceAdvisoryFeature2">Dedicated advisor relationships</li>
+                        <li data-i18n="serviceAdvisoryFeature3">Regular check-ins</li>
+                        <li data-i18n="serviceAdvisoryFeature4">Strategic planning support</li>
                     </ul>
                 </div>
             </div>
@@ -254,9 +259,9 @@
         <div class="container">
             <div class="section-grid">
                 <div class="section-content">
-                    <span class="section-label">For Clients</span>
-                    <h2>Accelerate Your Research with Expert Insights</h2>
-                    <p>
+                    <span class="section-label" data-i18n="sectionClients">For Clients</span>
+                    <h2 data-i18n="clientsTitle">Accelerate Your Research with Expert Insights</h2>
+                    <p data-i18n="clientsDesc">
                         Whether you're evaluating an investment opportunity, entering a new market, or validating 
                         a strategic hypothesis, our expert network provides the firsthand intelligence you need 
                         to make confident decisions.
@@ -266,45 +271,45 @@
                         <div class="client-step">
                             <span class="step-icon">1</span>
                             <div class="step-content">
-                                <h4>Submit Request</h4>
-                                <p>Tell us about your research objectives, target profile, and timeline</p>
+                                <h4 data-i18n="clientStep1Title">Submit Request</h4>
+                                <p data-i18n="clientStep1Desc">Tell us about your research objectives, target profile, and timeline</p>
                             </div>
                         </div>
                         <div class="client-step">
                             <span class="step-icon">2</span>
                             <div class="step-content">
-                                <h4>Expert Matching</h4>
-                                <p>Our team identifies and vets qualified experts within 24 hours</p>
+                                <h4 data-i18n="clientStep2Title">Expert Matching</h4>
+                                <p data-i18n="clientStep2Desc">Our team identifies and vets qualified experts within 24 hours</p>
                             </div>
                         </div>
                         <div class="client-step">
                             <span class="step-icon">3</span>
                             <div class="step-content">
-                                <h4>Consultation Call</h4>
-                                <p>Connect with experts and gain actionable insights for your decision</p>
+                                <h4 data-i18n="clientStep3Title">Consultation Call</h4>
+                                <p data-i18n="clientStep3Desc">Connect with experts and gain actionable insights for your decision</p>
                             </div>
                         </div>
                     </div>
                     
-                    <a href="#contact" class="btn btn-primary">Request an Expert</a>
+                    <a href="#contact" class="btn btn-primary" data-i18n="clientsCta">Request an Expert</a>
                 </div>
                 <div class="client-types">
-                    <h3>Trusted By</h3>
+                    <h3 data-i18n="trustedBy">Trusted By</h3>
                     <div class="client-categories">
                         <div class="client-category">
                             <span class="category-icon">🏢</span>
-                            <h4>Investment Firms</h4>
-                            <p>Private equity, hedge funds, and venture capital</p>
+                            <h4 data-i18n="clientInvestment">Investment Firms</h4>
+                            <p data-i18n="clientInvestmentDesc">Private equity, hedge funds, and venture capital</p>
                         </div>
                         <div class="client-category">
                             <span class="category-icon">📋</span>
-                            <h4>Consulting Firms</h4>
-                            <p>Strategy consultants and market researchers</p>
+                            <h4 data-i18n="clientConsulting">Consulting Firms</h4>
+                            <p data-i18n="clientConsultingDesc">Strategy consultants and market researchers</p>
                         </div>
                         <div class="client-category">
                             <span class="category-icon">🏭</span>
-                            <h4>Corporations</h4>
-                            <p>Fortune 500 companies and growth enterprises</p>
+                            <h4 data-i18n="clientCorporations">Corporations</h4>
+                            <p data-i18n="clientCorporationsDesc">Fortune 500 companies and growth enterprises</p>
                         </div>
                     </div>
                 </div>
@@ -317,9 +322,9 @@
         <div class="container">
             <div class="expert-grid">
                 <div class="expert-content">
-                    <span class="section-label">For Experts</span>
-                    <h2>Share Your Expertise, Shape Decisions</h2>
-                    <p>
+                    <span class="section-label" data-i18n="sectionExperts">For Experts</span>
+                    <h2 data-i18n="expertsTitle">Share Your Expertise, Shape Decisions</h2>
+                    <p data-i18n="expertsDesc">
                         Join our network of 50,000+ professionals and get paid for sharing your industry knowledge. 
                         Set your own schedule, choose your engagements, and connect with leading investors and 
                         strategists seeking your insights.
@@ -329,47 +334,47 @@
                         <div class="benefit">
                             <span class="benefit-icon">💰</span>
                             <div class="benefit-content">
-                                <h4>Competitive Compensation</h4>
-                                <p>Earn $200-$1,000+ per hour of consultation</p>
+                                <h4 data-i18n="benefitCompensationTitle">Competitive Compensation</h4>
+                                <p data-i18n="benefitCompensationDesc">Earn $200-$1,000+ per hour of consultation</p>
                             </div>
                         </div>
                         <div class="benefit">
                             <span class="benefit-icon">⏰</span>
                             <div class="benefit-content">
-                                <h4>Flexible Schedule</h4>
-                                <p>Accept only the opportunities that fit your calendar</p>
+                                <h4 data-i18n="benefitScheduleTitle">Flexible Schedule</h4>
+                                <p data-i18n="benefitScheduleDesc">Accept only the opportunities that fit your calendar</p>
                             </div>
                         </div>
                         <div class="benefit">
                             <span class="benefit-icon">🛡️</span>
                             <div class="benefit-content">
-                                <h4>Full Compliance</h4>
-                                <p>We handle all compliance checks and confidentiality agreements</p>
+                                <h4 data-i18n="benefitComplianceTitle">Full Compliance</h4>
+                                <p data-i18n="benefitComplianceDesc">We handle all compliance checks and confidentiality agreements</p>
                             </div>
                         </div>
                         <div class="benefit">
                             <span class="benefit-icon">🌐</span>
                             <div class="benefit-content">
-                                <h4>Global Reach</h4>
-                                <p>Connect with clients worldwide from anywhere</p>
+                                <h4 data-i18n="benefitGlobalTitle">Global Reach</h4>
+                                <p data-i18n="benefitGlobalDesc">Connect with clients worldwide from anywhere</p>
                             </div>
                         </div>
                     </div>
                     
-                    <a href="#contact" class="btn btn-primary">Apply as Expert</a>
+                    <a href="#contact" class="btn btn-primary" data-i18n="expertsCta">Apply as Expert</a>
                 </div>
                 <div class="expert-stats">
                     <div class="expert-stat-card">
                         <span class="stat-number">$200-1,000+</span>
-                        <span class="stat-label">Hourly Rate Range</span>
+                        <span class="stat-label" data-i18n="expertStatRate">Hourly Rate Range</span>
                     </div>
                     <div class="expert-stat-card">
                         <span class="stat-number">50K+</span>
-                        <span class="stat-label">Active Experts</span>
+                        <span class="stat-label" data-i18n="expertStatExperts">Active Experts</span>
                     </div>
                     <div class="expert-stat-card">
                         <span class="stat-number">48h</span>
-                        <span class="stat-label">Average Payment</span>
+                        <span class="stat-label" data-i18n="expertStatPayment">Average Payment</span>
                     </div>
                 </div>
             </div>
@@ -381,9 +386,9 @@
         <div class="container">
             <div class="contact-grid">
                 <div class="contact-info">
-                    <span class="section-label">Contact</span>
-                    <h2>Get In Touch</h2>
-                    <p>
+                    <span class="section-label" data-i18n="sectionContact">Contact</span>
+                    <h2 data-i18n="contactTitle">Get In Touch</h2>
+                    <p data-i18n="contactDesc">
                         Ready to accelerate your research or join our expert network? 
                         Fill out the form and our team will respond within 24 hours.
                     </p>
@@ -392,22 +397,38 @@
                         <div class="contact-item">
                             <span class="contact-icon">📧</span>
                             <div>
-                                <span class="contact-label">Email</span>
+                                <span class="contact-label" data-i18n="contactEmail">Email</span>
                                 <a href="mailto:contact@meridian-expert.com">contact@meridian-expert.com</a>
                             </div>
                         </div>
                         <div class="contact-item">
                             <span class="contact-icon">📞</span>
                             <div>
-                                <span class="contact-label">Phone</span>
+                                <span class="contact-label" data-i18n="contactPhone">Phone</span>
                                 <a href="tel:+1-888-MERIDIAN">+1 (888) MERIDIAN</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">💬</span>
+                            <div>
+                                <span class="contact-label" data-i18n="contactWeChat">WeChat</span>
+                                <span>577173997</span>
+                            </div>
+                        </div>
+                        <div class="contact-item wechat-qr">
+                            <span class="contact-icon">📱</span>
+                            <div>
+                                <span class="contact-label" data-i18n="contactWeChatQR">WeChat QR Code</span>
+                                <div class="qr-placeholder" id="wechat-qr-code">
+                                    <span data-i18n="qrComingSoon">QR code coming soon</span>
+                                </div>
                             </div>
                         </div>
                         <div class="contact-item">
                             <span class="contact-icon">📍</span>
                             <div>
-                                <span class="contact-label">Headquarters</span>
-                                <span>New York, NY | London | Singapore</span>
+                                <span class="contact-label" data-i18n="contactHQ">Headquarters</span>
+                                <span data-i18n="contactLocations">New York, NY | London | Singapore</span>
                             </div>
                         </div>
                     </div>
@@ -416,69 +437,69 @@
                 <form class="contact-form" action="#" method="POST">
                     <div class="form-row">
                         <div class="form-group">
-                            <label for="name">Full Name *</label>
+                            <label for="name" data-i18n="formName">Full Name *</label>
                             <input type="text" id="name" name="name" required placeholder="John Smith">
                         </div>
                         <div class="form-group">
-                            <label for="company">Company *</label>
+                            <label for="company" data-i18n="formCompany">Company *</label>
                             <input type="text" id="company" name="company" required placeholder="Acme Capital">
                         </div>
                     </div>
                     
                     <div class="form-group">
-                        <label for="email">Email Address *</label>
+                        <label for="email" data-i18n="formEmail">Email Address *</label>
                         <input type="email" id="email" name="email" required placeholder="john@company.com">
                     </div>
                     
                     <div class="form-group">
-                        <label for="interest">I am interested in *</label>
+                        <label for="interest" data-i18n="formInterest">I am interested in *</label>
                         <select id="interest" name="interest" required>
-                            <option value="">Select an option</option>
-                            <option value="request-expert">Requesting an Expert</option>
-                            <option value="join-expert">Joining as an Expert</option>
-                            <option value="partnership">Partnership Opportunity</option>
-                            <option value="other">Other</option>
+                            <option value="" data-i18n="formSelectOption">Select an option</option>
+                            <option value="request-expert" data-i18n="formOptionRequest">Requesting an Expert</option>
+                            <option value="join-expert" data-i18n="formOptionJoin">Joining as an Expert</option>
+                            <option value="partnership" data-i18n="formOptionPartnership">Partnership Opportunity</option>
+                            <option value="other" data-i18n="formOptionOther">Other</option>
                         </select>
                     </div>
                     
                     <div class="form-group">
-                        <label for="topic">Research Topic / Area of Expertise</label>
+                        <label for="topic" data-i18n="formTopic">Research Topic / Area of Expertise</label>
                         <input type="text" id="topic" name="topic" placeholder="e.g., Electric Vehicle Battery Technology">
                     </div>
                     
                     <div class="form-row">
                         <div class="form-group">
-                            <label for="industry">Industry</label>
+                            <label for="industry" data-i18n="formIndustry">Industry</label>
                             <select id="industry" name="industry">
-                                <option value="">Select industry</option>
-                                <option value="ai">Artificial Intelligence</option>
-                                <option value="semiconductors">Semiconductors</option>
-                                <option value="ev">Electric Vehicles</option>
-                                <option value="consumer">Consumer & Retail</option>
-                                <option value="healthcare">Healthcare</option>
-                                <option value="financial">Financial Services</option>
-                                <option value="energy">Energy & Infrastructure</option>
-                                <option value="other">Other</option>
+                                <option value="" data-i18n="formSelectIndustry">Select industry</option>
+                                <option value="ai" data-i18n="formIndustryAI">Artificial Intelligence</option>
+                                <option value="semiconductors" data-i18n="formIndustrySemiconductors">Semiconductors</option>
+                                <option value="ev" data-i18n="formIndustryEV">Electric Vehicles</option>
+                                <option value="consumer" data-i18n="formIndustryConsumer">Consumer & Retail</option>
+                                <option value="healthcare" data-i18n="formIndustryHealthcare">Healthcare</option>
+                                <option value="financial" data-i18n="formIndustryFinancial">Financial Services</option>
+                                <option value="energy" data-i18n="formIndustryEnergy">Energy & Infrastructure</option>
+                                <option value="other" data-i18n="formIndustryOther">Other</option>
                             </select>
                         </div>
                         <div class="form-group">
-                            <label for="timeline">Timeline</label>
+                            <label for="timeline" data-i18n="formTimeline">Timeline</label>
                             <select id="timeline" name="timeline">
-                                <option value="">Select timeline</option>
-                                <option value="urgent">Urgent (24-48 hours)</option>
-                                <option value="1-week">Within 1 week</option>
-                                <option value="2-weeks">1-2 weeks</option>
-                                <option value="flexible">Flexible</option>
+                                <option value="" data-i18n="formSelectTimeline">Select timeline</option>
+                                <option value="urgent" data-i18n="formTimelineUrgent">Urgent (24-48 hours)</option>
+                                <option value="1-week" data-i18n="formTimeline1Week">Within 1 week</option>
+                                <option value="2-weeks" data-i18n="formTimeline2Weeks">1-2 weeks</option>
+                                <option value="flexible" data-i18n="formTimelineFlexible">Flexible</option>
                             </select>
                         </div>
                     </div>
                     
                     <div class="form-group">
-                        <label for="message">Additional Details</label>
+                        <label for="message" data-i18n="formMessage">Additional Details</label>
                         <textarea id="message" name="message" rows="4" placeholder="Tell us more about your research needs or expertise..."></textarea>
                     </div>
                     
-                    <button type="submit" class="btn btn-primary btn-large btn-full">Submit Request</button>
+                    <button type="submit" class="btn btn-primary btn-large btn-full" data-i18n="formSubmit">Submit Request</button>
                 </form>
             </div>
         </div>
@@ -493,7 +514,7 @@
                         <span class="logo-icon">◆</span>
                         <span class="logo-text">MERIDIAN</span>
                     </a>
-                    <p class="footer-tagline">Precision Insights. Decisive Advantage.</p>
+                    <p class="footer-tagline" data-i18n="footerTagline">Precision Insights. Decisive Advantage.</p>
                     <div class="footer-social">
                         <a href="#" aria-label="LinkedIn">in</a>
                         <a href="#" aria-label="Twitter">X</a>
@@ -502,30 +523,30 @@
                 
                 <div class="footer-links">
                     <div class="footer-column">
-                        <h4>Company</h4>
+                        <h4 data-i18n="footerCompany">Company</h4>
                         <ul>
-                            <li><a href="#about">About Us</a></li>
-                            <li><a href="#">Careers</a></li>
-                            <li><a href="#">Press</a></li>
-                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#about" data-i18n="footerAbout">About Us</a></li>
+                            <li><a href="#" data-i18n="footerCareers">Careers</a></li>
+                            <li><a href="#" data-i18n="footerPress">Press</a></li>
+                            <li><a href="#contact" data-i18n="footerContact">Contact</a></li>
                         </ul>
                     </div>
                     <div class="footer-column">
-                        <h4>Services</h4>
+                        <h4 data-i18n="footerServices">Services</h4>
                         <ul>
-                            <li><a href="#services">Expert Calls</a></li>
-                            <li><a href="#services">Expert Surveys</a></li>
-                            <li><a href="#services">Advisory</a></li>
-                            <li><a href="#">Enterprise</a></li>
+                            <li><a href="#services" data-i18n="footerExpertCalls">Expert Calls</a></li>
+                            <li><a href="#services" data-i18n="footerExpertSurveys">Expert Surveys</a></li>
+                            <li><a href="#services" data-i18n="footerAdvisory">Advisory</a></li>
+                            <li><a href="#" data-i18n="footerEnterprise">Enterprise</a></li>
                         </ul>
                     </div>
                     <div class="footer-column">
-                        <h4>Resources</h4>
+                        <h4 data-i18n="footerResources">Resources</h4>
                         <ul>
-                            <li><a href="#">Compliance</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms of Service</a></li>
-                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#" data-i18n="footerCompliance">Compliance</a></li>
+                            <li><a href="#" data-i18n="footerPrivacy">Privacy Policy</a></li>
+                            <li><a href="#" data-i18n="footerTerms">Terms of Service</a></li>
+                            <li><a href="#" data-i18n="footerFAQs">FAQs</a></li>
                         </ul>
                     </div>
                 </div>
@@ -534,9 +555,9 @@
             <div class="footer-bottom">
                 <p>&copy; 2026 Meridian Expert Network. All rights reserved.</p>
                 <div class="footer-legal">
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms of Service</a>
-                    <a href="#">Cookie Policy</a>
+                    <a href="#" data-i18n="footerPrivacy">Privacy Policy</a>
+                    <a href="#" data-i18n="footerTerms">Terms of Service</a>
+                    <a href="#" data-i18n="footerCookies">Cookie Policy</a>
                 </div>
             </div>
         </div>
