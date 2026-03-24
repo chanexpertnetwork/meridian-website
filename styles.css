@@ -179,6 +179,13 @@ p {
     color: var(--primary);
 }
 
+.logo-img {
+    height: 36px;
+    width: auto;
+    max-width: 160px;
+    object-fit: contain;
+}
+
 .logo-icon {
     color: var(--accent);
     font-size: 1.1em;
