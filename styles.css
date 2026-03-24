@@ -1045,7 +1045,18 @@ p {
     color: var(--border);
 }
 
-/* WeChat QR Code */
+/* WeChat Icon */
+.wechat-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #07C160;
+}
+
+.wechat-icon svg {
+    width: 22px;
+    height: 22px;
+}
 .wechat-qr .qr-placeholder {
     display: inline-flex;
     align-items: center;
