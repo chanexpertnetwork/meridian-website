@@ -643,6 +643,21 @@ p {
     margin-bottom: 2rem;
 }
 
+.join-expert .privacy-notice {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    background: rgba(255, 255, 255, 0.15);
+    border-left: 4px solid #63b3ed;
+    padding: 1rem 1.25rem;
+    border-radius: 0 8px 8px 0;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #ffffff !important;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+}
+
 .expert-benefits {
     display: grid;
     gap: 1.5rem;

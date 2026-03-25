@@ -93,6 +93,7 @@ const translations = {
         sectionExperts: "For Experts",
         expertsTitle: "Share Your Expertise, Shape Decisions",
         expertsDesc: "Join Meridian and turn your knowledge into value. Just as the meridian connects all lines of longitude across the globe, we connect experts with decision-makers worldwide. Wherever you are, your professional expertise can find clients who need it—transforming insights into income.",
+        expertsPrivacyNotice: "🔒 Your identity and personal information are strictly confidential. We guarantee that your submitted personal data will never be disclosed to any third party in any form.",
         benefitCompensationTitle: "Competitive Compensation",
         benefitCompensationDesc: "Earn $200-$1,000+ per hour of consultation",
         benefitScheduleTitle: "Flexible Schedule",
@@ -251,7 +252,8 @@ const translations = {
         clientCorporationsDesc: "财富500强公司和成长型企业",
         sectionExperts: "成为专家",
         expertsTitle: "分享您的专业知识，影响决策",
-        expertsDesc: "加入Meridian，让知识创造价值。子午线连接地球上所有的经线，正如我们连接全球的专家与决策者。无论您身处何地，您的专业经验都能在这里找到需要它的客户，实现知识变现。"
+        expertsDesc: "加入Meridian，让知识创造价值。子午线连接地球上所有的经线，正如我们连接全球的专家与决策者。无论您身处何地，您的专业经验都能在这里找到需要它的客户，实现知识变现。",
+        expertsPrivacyNotice: "🔒 您的身份和个人信息将被严格保密。我们承诺您提交的个人信息不会以任何形式对外泄露。"
 ,        benefitCompensationTitle: "有竞争力的报酬",
         benefitCompensationDesc: "每小时咨询可获得200-1000美元以上",
         benefitScheduleTitle: "灵活的时间安排",
