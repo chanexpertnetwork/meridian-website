@@ -440,32 +440,10 @@ function initNavbarScroll() {
     });
 }
 
-// Form Handling
+// Form Handling - Formspree handles submission, no JS interception needed
 function initFormHandling() {
-    const form = document.querySelector('.contact-form');
-    
-    if (form) {
-        form.addEventListener('submit', (e) => {
-            e.preventDefault();
-            
-            // Get form data
-            const formData = new FormData(form);
-            const data = Object.fromEntries(formData);
-            
-            // Here you would typically send the data to a server
-            console.log('Form submitted:', data);
-            
-            // Show success message
-            const successMessage = currentLang === 'zh' 
-                ? '感谢您的提交！我们的团队将在24小时内与您联系。'
-                : 'Thank you for your submission! Our team will contact you within 24 hours.';
-            
-            alert(successMessage);
-            
-            // Reset form
-            form.reset();
-        });
-    }
+    // Formspree handles the form submission automatically
+    // No need to prevent default or use AJAX
 }
 
 // Intersection Observer for Animations
